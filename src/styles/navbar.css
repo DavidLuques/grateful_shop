@@ -1,0 +1,39 @@
+.navbar {
+  background-color: black !important ;
+  
+}
+.active {
+  color: red !important;
+  font-weight: lighter;
+}
+.navbar-brand,.nav-link:hover {
+  transform: scale(1.2); /* Escala el elemento al 110% del tamaño original */
+}
+
+
+.bi-whatsapp {
+  color: green; /* Cambia el color del icono de WhatsApp a verde */
+}
+  
+/* Otros estilos para la barra de navegación u otros elementos */
+.img-wsp {
+  color: green; 
+  
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  margin-left: 30px;
+  color: beige ; /* Cambia el color del texto de los enlaces a beige */
+  font-size: 25px;
+  font-weight: bold;
+}
+.contacto {
+  /* Estilos específicos para el enlace de "Contacto" */
+  /* Por ejemplo: */
+  font-size: 18px; /* Cambia el tamaño de la fuente */
+  font-weight: bold; /* Hace el texto en negrita */
+  color: red; /* Cambia el color del texto a rojo */
+}
+.tudo{
+  margin-right: 20px;
+}
