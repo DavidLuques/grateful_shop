@@ -1,0 +1,25 @@
+.container {
+    color: beige;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.pic {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+img {
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+
+}
+
+
+
+.pic article {}
