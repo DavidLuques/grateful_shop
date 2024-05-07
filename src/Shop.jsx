@@ -9,20 +9,54 @@ export const Shop = () => {
       <div className='container'>
         <section className='pic'>
           <article>
-            <img src={imagesto.img11} alt='bati-dora' />
+            <div class="card" >
+              <img src={imagesto.img11} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </article>
           <article>
-            <img src={imagesto.img22} alt='bati-dora' />
+            <div class="card" >
+              <img src={imagesto.img11} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </article>
           <article>
-            <img src={imagesto.img11} alt='bati-dora' />
+            <div class="card" >
+              <img src={imagesto.img11} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </article>
           <article>
-            <img src={imagesto.img22} alt='bati-dora' />
+            <div class="card" >
+              <img src={imagesto.img11} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </article>
           <article>
-          <img src={imagesto.img11} alt='bati-dora'/>
-        </article>
+            <div class="card" >
+              <img src={imagesto.img11} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card" >
+              <img src={imagesto.img11} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </article>
+         
         </section>
       </div>
     </>

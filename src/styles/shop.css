@@ -1,10 +1,9 @@
 .container {
+    margin-top: 30px;
     color: beige;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    flex-direction: row;
-}
+    gap: 10px;}
 
 .pic {
     display: grid;
@@ -13,13 +12,6 @@
 
 }
 
-img {
-    width: 200px;
-    height: 220px;
-    border-radius: 10px;
-
-}
 
 
 
-.pic article {}
