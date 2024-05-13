@@ -3,8 +3,9 @@ import '../styles/navbar.css';
 import { NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
-  return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  return (<>
+
+    <nav className="navbar navbar-expand-sm bg-body-tertiary">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/tienda" activeClassName="active">Tienda</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +27,12 @@ export const NavBar = () => {
                 </a>
               </li>
             </div>
-
           </ul>
         </div>
       </div>
+
     </nav>
+
+  </>
   );
 };

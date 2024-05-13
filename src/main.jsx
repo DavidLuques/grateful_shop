@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './styles/styles.css';
 import { BrowserRouter, Routes, Route,Navigate } from 'react-router-dom'; // Importa Routes también
 
-import { NavBar } from './navbar/NavBar';
-import { Products } from './products/Products';
+import { NavBar } from './components/NavBar';
+import { Products } from './components/Products';
 import { Subtitle } from './Second';
 import { Shop } from './Shop';
 import { FirstPage } from './FirstPage';

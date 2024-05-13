@@ -1,53 +1,71 @@
 .navbar {
-  background-color: black !important ;
-  
+  background-color: black !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 .active {
-  color: beige !important; 
+  color: beige !important;
   font-weight: lighter;
 }
+
 .nav-link:hover {
-  transform: scale(1.3); /* Escala el elemento al 110% del tamaño original */
+  transform: scale(1.3);
 }
 
 .navbar-brand:hover {
   transform: scale(1.3);
-  color: beige; /* Escala el elemento al 110% del tamaño original */
+  color: beige;
 }
-.img-wsp:hover {
-  color: green; 
-  transform: scale(1.3); /* Escala el elemento al 110% del tamaño original */
 
-  
+.img-wsp:hover {
+  color: green;
+  transform: scale(1.3);
 }
+
 .bi-whatsapp {
-  color: green; /* Cambia el color del icono de WhatsApp a verde */
+  color: green;
+  background-color: white;
+  border-radius: 50%;  
 }
-  
-/* Otros estilos para la barra de navegación u otros elementos */
+
 .img-wsp {
-  color: green; 
-  
+  color: green;
 }
+
 .navbar-brand,
 .navbar-nav .nav-link {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 30px;
-  color: beige ; /* Cambia el color del texto de los enlaces a beige */
+  color: beige;
   font-size: 30px;
   font-weight: bold;
 }
-.contacto {
-  /* Estilos específicos para el enlace de "Contacto" */
-  /* Por ejemplo: */
-  font-size: 18px; /* Cambia el tamaño de la fuente */
-  font-weight: bold; /* Hace el texto en negrita */
-  color: red; /* Cambia el color del texto a rojo */
+
+.contacto { 
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
 }
+
 .nav-link .bi-whatsapp {
-  width: 40px; /* Define el ancho deseado */
-  height: 40px; /* Define la altura deseada */
+  width: 40px;
+  height: 40px;
   margin-right: 50px;
 }
-.tudo{
+
+.tudo {
   margin-right: 20px;
 }
+
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  background-color: gray;
+  border-radius: 2rem;}
+
+@media screen and (max-width:575px) {
+  .container-fluid {
+    width: 90%;
+  }}
