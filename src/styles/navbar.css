@@ -43,6 +43,11 @@
   font-weight: bold; /* Hace el texto en negrita */
   color: red; /* Cambia el color del texto a rojo */
 }
+.nav-link .bi-whatsapp {
+  width: 40px; /* Define el ancho deseado */
+  height: 40px; /* Define la altura deseada */
+  margin-right: 50px;
+}
 .tudo{
   margin-right: 20px;
 }

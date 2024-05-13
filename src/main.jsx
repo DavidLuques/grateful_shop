@@ -7,6 +7,7 @@ import { NavBar } from './navbar/NavBar';
 import { Products } from './products/Products';
 import { Subtitle } from './Second';
 import { Shop } from './Shop';
+import { FirstPage } from './FirstPage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,8 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Subtitle></Subtitle>
       <Routes> {/* Usa Routes en lugar de BrowserRouter */}
         <Route path="/" element={<Navigate to="/tienda" />} />
-        <Route path="/tienda" element={<Shop/>} />
-        <Route path="/products" element={<Products />} /> {/* Define la ruta de Products */}
+        <Route path="/tienda" element={<FirstPage/>} />
+        <Route path="/products" element={<Shop />} /> {/* Define la ruta de Products */}
 
       </Routes>
 

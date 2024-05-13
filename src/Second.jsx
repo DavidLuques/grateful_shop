@@ -1,9 +1,9 @@
 import React from 'react'
-   import './styles/products.css'
+import './styles/products.css'
 
 
 export const Subtitle = () => {
   return (
- <><h1>Graceful</h1></>
+    <><h1>Graceful</h1></>
   )
 }
