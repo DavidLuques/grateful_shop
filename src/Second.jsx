@@ -4,6 +4,6 @@ import './styles/products.css'
 
 export const Subtitle = () => {
   return (
-    <><h1>Graceful</h1></>
+    <div className='titl'><h1>Graceful</h1></div>
   )
 }

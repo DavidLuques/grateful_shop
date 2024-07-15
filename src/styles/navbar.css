@@ -1,8 +1,17 @@
 .navbar {
-  background-color: black !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  background-color: gray !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  z-index: 1000;
+  position: fixed;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+  margin-top: .3rem;
 }
-
+.titl {
+  padding-top: 5rem;
+}
 .active {
   color: beige !important;
   font-weight: lighter;
@@ -40,7 +49,7 @@
   color: beige;
   font-size: 30px;
   font-weight: bold;
-}
+  }
 
 .contacto { 
   font-size: 18px;
@@ -58,14 +67,14 @@
   margin-right: 20px;
 }
 
-.container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 900px;
-  background-color: gray;
-  border-radius: 2rem;}
 
 @media screen and (max-width:575px) {
   .container-fluid {
     width: 90%;
-  }}
+  }
+ 
+  h1{
+    padding-top: 3rem;
+    font-size: 3rem !important;
+  }
+}

@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <NavBar />
-      <Subtitle></Subtitle>
+      <Subtitle/>
       <Routes> {/* Usa Routes en lugar de BrowserRouter */}
         <Route path="/" element={<Navigate to="/tienda" />} />
         <Route path="/tienda" element={<FirstPage/>} />
