@@ -1,80 +1,80 @@
 .navbar {
-  background-color: gray !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  z-index: 1000;
-  position: fixed;
-  width: 70%;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 2rem;
-  margin-top: .3rem;
+    background-color: gray !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1000;
+    position: fixed;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+    margin-top: .3rem;
 }
+
 .titl {
-  padding-top: 5rem;
+    padding-top: 5rem;
 }
+
 .active {
-  color: beige !important;
-  font-weight: lighter;
+    color: beige !important;
+    font-weight: lighter;
 }
 
 .nav-link:hover {
-  transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .navbar-brand:hover {
-  transform: scale(1.3);
-  color: beige;
+    transform: scale(1.3);
+    color: beige;
 }
 
 .img-wsp:hover {
-  color: green;
-  transform: scale(1.3);
+    color: green;
+    transform: scale(1.3);
 }
 
 .bi-whatsapp {
-  color: green;
-  background-color: white;
-  border-radius: 50%;  
+    color: green;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .img-wsp {
-  color: green;
+    color: green;
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 30px;
-  color: beige;
-  font-size: 30px;
-  font-weight: bold;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    color: beige;
+    font-size: 30px;
+    font-weight: bold;
+}
 
-.contacto { 
-  font-size: 18px;
-  font-weight: bold;
-  color: red;
+.contacto {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
 }
 
 .nav-link .bi-whatsapp {
-  width: 40px;
-  height: 40px;
-  margin-right: 50px;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
 }
 
 .tudo {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
-
 @media screen and (max-width:575px) {
-  .container-fluid {
-    width: 90%;
-  }
- 
-  h1{
-    padding-top: 3rem;
-    font-size: 3rem !important;
-  }
+    .container-fluid {
+        width: 90%;
+    }
+    h1 {
+        padding-top: 3rem;
+        font-size: 3rem !important;
+    }
 }
